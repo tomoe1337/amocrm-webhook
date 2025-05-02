@@ -19,7 +19,6 @@ class WebhookController extends Controller
     {
         $data = $request->all();
 
-        log::info("message",$request->all());
         if (isset($data['leads']['add'])) {
             foreach ($data['leads']['add'] as $lead) {
                 $this->webhookHandlerService->handleAddEvent('lead', $lead);
