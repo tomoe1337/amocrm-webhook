@@ -16,7 +16,7 @@
 ## Установка
 1. **Клонируйте репозиторий**
    ```bash
-   git clone https://github.com/amocrm-webhook.git
+   git clone https://github.com/tomoe1337/amocrm-webhook.git
    cd amocrm-webhook
    ```
 
